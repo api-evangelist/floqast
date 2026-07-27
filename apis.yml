@@ -1,9 +1,32 @@
 aid: floqast
 name: FloQast
-description: 'FloQast is a company surfaced as a portfolio company of iconiq-capital, insight-partners,
-  norwest-venture-partners, redpoint-ventures, sapphire-ventures and added to the API Evangelist network
-  as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  FloQast is an accounting transformation platform that automates the financial
+  close, reconciliations, and record-to-report workflows while preserving audit
+  compliance and human sign-off. Built by accountants for accountants, it offers
+  month-end close management, AI-driven transaction matching and reconciliation,
+  journal entry management, variance analysis, consolidation, and Connected
+  Compliance for evidence collection, risk management, and controls testing. Its
+  Transform line adds no-code AI agents for accounting workflows where every
+  output is explainable and every decision logged. FloQast connects to ERPs
+  including Workday, Oracle NetSuite, SAP, Sage Intacct, Xero, and QuickBooks,
+  and serves 3,500+ companies. It is an early ISO 42001 adopter with SOC 2 Type
+  II, ISO 27001, and ISO 27701 certifications. FloQast does not publish a public
+  developer API; this profile catalogs its identity, integration, security, and
+  compliance surface.
 url: https://raw.githubusercontent.com/api-evangelist/floqast/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/67a1db1fd2f32256b80d22ff/6a1f73104285ab81a34cd2d4_Social%20Image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -16,10 +39,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
+- Accounting
+- Financial Close
+- Reconciliation
+- Record-to-Report
+- Compliance
+- Artificial Intelligence
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -29,3 +59,32 @@ maintainers:
 common:
 - type: Website
   url: https://floqast.com/
+- type: Integrations
+  url: https://floqast.com/integrations
+- type: Pricing
+  url: https://floqast.com/pricing
+- type: Blog
+  url: https://floqast.com/blog
+- type: Support
+  url: https://help.floqast.com/hc/en-us/requests/new
+- type: Login
+  url: https://www.floqast.app/login
+- type: StatusPage
+  url: https://status.floqast.com
+- type: TermsOfService
+  url: https://floqast.com/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://floqast.com/legal/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/FloQast
+- type: TrustCenter
+  url: security/floqast-trust-center.yml
+- type: Compliance
+  url: https://floqast.com/trust-and-security
+- type: DomainSecurity
+  url: security/floqast-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,32 @@
+generated: '2026-07-19'
+method: searched
+source: https://floqast.com/trust-and-security
+url: https://floqast.com/trust-and-security
+certifications:
+- SOC 2 Type II
+- SOC 3
+- ISO 27001
+- ISO 27701
+- ISO 42001
+- Data Privacy Framework
+notes: >-
+  FloQast publishes its security and compliance posture on its Trust & Security
+  page. It is an early adopter of ISO 42001 (AI management standard), and holds
+  ISO 27001 (information security) and ISO 27701 (privacy information management)
+  certifications alongside SOC 2 Type II / SOC 3 attestations. SOC 3 reports are
+  available to prospects via account executives; SOC 2, bridge letters, and audit
+  evidence are accessible to customers within the application. Annual penetration
+  testing is performed by specialist third-party security firms. No public trust
+  portal subdomain (trust.floqast.com) or self-service certification download
+  center was found at probe time; the /trust-and-security page is the canonical
+  surface.
+evidence:
+- source: https://floqast.com/trust-and-security
+  keywords:
+  - soc 2 type ii
+  - soc 3
+  - iso 27001
+  - iso 27701
+  - iso 42001
+  - data privacy framework
+  - penetration testing
