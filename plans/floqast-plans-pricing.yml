@@ -1,0 +1,36 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.floqast.com/pricing
+sources:
+- https://www.floqast.com/pricing
+- https://floqast.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: false
+note: No numeric price is published on the pricing page; Packaging page with three tiers, all priced 'Contact
+  Sales'. States 'No Per-User Fees' and pricing tailored to business outcomes; no numeric prices shown.
+plan_count: 3
+plans:
+- name: Close Management
+  price_text: Contact Sales
+  period: none
+  included_quota: Close checklist, account reconciliations, accounting operations, projects, AI assistant,
+    ERP integration.
+- name: Close AI
+  price_text: Contact Sales
+  period: none
+  included_quota: 'Close Management, Plus: AI agents, AI matching, automated reconciliations, and journal
+    entry posting.'
+- name: Risk & Compliance
+  price_text: Contact Sales
+  period: none
+  included_quota: Controls, audit readiness, ERM, operational audits and testing.
