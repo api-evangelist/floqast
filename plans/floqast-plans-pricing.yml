@@ -34,3 +34,30 @@ plans:
   price_text: Contact Sales
   period: none
   included_quota: Controls, audit readiness, ERM, operational audits and testing.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Close Management
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Close AI
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Risk & Compliance
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
