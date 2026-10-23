@@ -42,3 +42,16 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: floqast-xero-own
+  label: Xero (own)
+  partner: xero
+  partner_name: Xero (own)
+  category: Accountant tools
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://apps.xero.com/nz/app/floqast
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
